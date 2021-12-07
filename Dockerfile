@@ -9,4 +9,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD [ "python", "-m" , "calc", "run", "--host=0.0.0.0"]
+CMD [ "python", "-m" , "calc", "run", "--host=0.0.0.0:5000"]
